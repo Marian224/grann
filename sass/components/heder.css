@@ -1,4 +1,6 @@
 .menu {
-  display: flex;
   list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }/*# sourceMappingURL=heder.css.map */
