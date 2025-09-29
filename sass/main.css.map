@@ -1,1 +1,1 @@
-{"version":3,"sources":["components/heder.scss","main.css","components/svg.scss"],"names":[],"mappings":"AAAA;EACI,gBAAA;ACCJ;;ACOA;EACI,UAAA;EACA,SAAA;EACA,gBAAA;ADJJ;;ACOA;EACI,YAAA;EACA,0BAAA;EACA,kBAAA;EACA,aAAA;ADJJ;;ACOA;EACI,aAAA;ADJJ","file":"main.css"}
+{"version":3,"sources":["components/_heder.scss","main.css","components/_svg.scss"],"names":[],"mappings":"AAAA;EACI,gBAAA;EACA,aAAA;EACA,2BAAA;EACA,uBAAA;ACCJ;;ACIA;EACI,UAAA;EACA,SAAA;EACA,gBAAA;ADDJ;;ACIA;EACI,YAAA;EAGA,aAAA;ADHJ;;ACMA;EACI,aAAA;ADHJ","file":"main.css"}

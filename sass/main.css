@@ -1,5 +1,8 @@
 .menu {
   list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .icon-list {
@@ -10,8 +13,6 @@
 
 .icon {
   width: 200px;
-  border: 2px dashed #2a2a2a;
-  border-radius: 8px;
   fill: #2a2a2a;
 }
 
