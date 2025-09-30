@@ -1,0 +1,68 @@
+.main {
+    background-color: #F5EEE0;
+    border-bottom: 5px solid rgb(255, 0, 0);
+    border: 1px solid white;
+    padding-bottom: 120px;
+}
+
+.main-title {
+    font-family: "Montserrat", sans-serif;
+    color: #705A66;
+    // align-items: center;
+    // justify-content: center;
+    text-align: center;
+    font-size: 100px;
+    line-height: 110px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.pudding {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 378px;
+
+}
+
+.cakes {
+    margin-left: -153px;
+    margin-top: -709px;
+}
+
+.hardening {
+    margin-bottom: 146px;
+}
+
+.circlet {
+    margin-left: 83px;
+}
+
+.contact {
+    // display: flex;
+    // align-items: flex-end;
+    // justify-content: flex-end;
+    width: 25px;
+    height: 25px;
+
+}
+
+.vraper-social {
+    display: flex;
+    margin-top: -474px;
+    margin-left: 833px;
+
+}
+
+.social-list {
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+
+.main-description-social {
+    font-family: "Montserrat", sans-serif;
+    color: #705A66;
+    font-size: 16px;
+    width: 287px;
+}

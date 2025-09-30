@@ -11,13 +11,17 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    //  color: #705A66;
 }
 
 .icon {
-    width: 200px;
+    width: 25px;
+    
     // border: 2px dashed #2a2a2a;
     // border-radius: 8px;
-    fill: #2a2a2a;
+    fill: #705A66;;
+    // color: #705A66;
+    margin-left: -250px;
 }
 
 .icon:hover {
