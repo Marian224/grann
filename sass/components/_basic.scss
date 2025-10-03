@@ -1,9 +1,12 @@
-body{
+body {
     padding: 0px;
     margin: 0px;
 }
 
-.container{
+.container {
     width: 1240px;
     margin: 0 auto;
+    border: 1px solid red;
+    overflow: hidden;
+    margin-bottom: 120px;
 }

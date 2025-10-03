@@ -16,14 +16,15 @@
 
 .icon {
     width: 25px;
-    
-    // border: 2px dashed #2a2a2a;
-    // border-radius: 8px;
-    fill: #705A66;;
-    // color: #705A66;
+    fill: #705A66;
     margin-left: -250px;
 }
 
 .icon:hover {
     fill: #03a9f4;
+}
+
+.icon-card {
+    width: 25px;
+    fill: #705A66;
 }
