@@ -290,15 +290,9 @@ body {
   margin-left: 100px;
 }
 
-.grann-photo-down {
-  width: 1600px;
-  height: 700px;
-  margin-top: -120px;
-  margin-left: 150px;
-}
-
 .delivery-title {
   list-style: none;
+  padding: 0px 106px 0px 106px;
 }
 
 .delivery-name {
@@ -324,6 +318,7 @@ body {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
+  font-weight: 500;
 }
 
 .delivery-description {
@@ -338,4 +333,83 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.about-me-face {
+  padding-bottom: 300px;
+}
+
+.about-me-photo {
+  position: absolute;
+  margin-top: 78px;
+  margin-left: 30px;
+}
+
+.about-me-title {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  color: #705A66;
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 641px;
+  margin-top: -667px;
+}
+
+.about-me-position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  margin-left: 500px;
+  margin-top: -200px;
+}
+
+.about-me-name {
+  font-family: "Montserrat", sans-serif;
+  color: #705A66;
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.about-me-text {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 635px;
+  margin-top: -539px;
+  color: #705A66;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.about-me-description {
+  font-family: "Montserrat", sans-serif;
+  color: #705A66;
+  line-height: 22px;
+  font-size: 16px;
+}
+
+.register-photo-text {
+  position: absolute;
+  padding-top: 80px;
+  margin-top: -573px;
+  padding-left: 100px;
+}
+
+.register-text {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  margin-top: -557px;
+  padding-top: 280px;
+  padding-left: 100px;
+  color: #F5F7F8;
+  line-height: 24px;
+  font-size: 18px;
 }/*# sourceMappingURL=main.css.map */
