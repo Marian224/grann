@@ -2,36 +2,47 @@
      display: flex;
  }
 
- .grann-main {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     justify-content: space-between;
- }
 
  .grann-photo {
      display: flex;
      align-items: center;
      justify-content: center;
      margin-left: 305px;
+     margin-top: -335px;
  }
 
  .grann-text {
      font-family: "Montserrat", sans-serif;
      color: #705A66;
+     line-height: 32px;
+     font-size: 24px;
  }
 
- .grann-photo-ingredient {
-     display: flex;
-     margin-left: 100px;
+ .grann-main {
+     width: 287px;
+     margin-top: 204px;
+     margin-left: 124px;
  }
 
-//  .grann-photo-down {
-//      width: 1600px;
-//      height: 700px;
-//      margin-top: -120px;
-//      //  display: flex;
-//      //  align-items: center;
-//      //  justify-content: center;
-//      margin-left: 150px;
-//  }
+ .grann-text-down {
+     font-family: "Montserrat", sans-serif;
+     line-height: 24px;
+     font-size: 18px;
+     color: #705A66;
+ }
+
+ .grann-text-order {
+     width: 393px;
+     margin-top: -413px;
+     margin-left: 819px;
+ }
+
+ .grann-text-weight {
+     width: 499px;
+     margin-left: 448px;
+     margin-top: 88px;
+ }
+
+ .grann-photo-down {
+    // margin-top: 2px;
+ }
