@@ -22,6 +22,46 @@
     justify-content: flex-end;
 }
 
-// .product-order{
-// display: ;
-// }
+.product-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.container-product {
+    display: flex;
+}
+
+.product-name {
+    font-family: "Montserrat", sans-serif;
+    color: #705A66;
+    line-height: 24px;
+    font-size: 18px;
+    margin-left: -128px;
+}
+
+.product-btn-title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* відстань між рядами */
+    max-width: 500px;
+}
+
+.product-row {
+    display: flex;
+    gap: 16px;
+}
+
+.product-btn {
+    border-radius: 10px;
+    width: 240px;
+    height: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: #F5EEE0;
+    color: #705A66;
+    padding-left: 30px;
+}
