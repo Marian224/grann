@@ -12,6 +12,10 @@
     width: 340px;
 }
 
+// .bestsaller-img:hover {
+//     transform: scale(1.1);
+// }
+
 .bestsaller-arrows {
     display: flex;
     align-items: flex-end;
@@ -30,12 +34,22 @@
     list-style: none;
 }
 
+.bestsaller-photo:hover {
+    border: 1px solid #705A66;
+    transform: scale(0.9);
+}
+
 .bestsaller-text {
     color: #705A66;
     font-family: "Montserrat", sans-serif;
     line-height: 32px;
     font-weight: 600;
     font-size: 24px;
+}
+
+.bestsaller-text:hover {
+    font-weight: 900;
+    text-shadow: 3px 3px 3px 3px #705A66;
 }
 
 .bestsaller-text-shop {
@@ -75,4 +89,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.product-text-wraper {
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: 3px 3px 3px 3px #705A66;
 }

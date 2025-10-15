@@ -3,6 +3,12 @@
     border-bottom: 5px solid rgb(255, 0, 0);
     border: 1px solid white;
     padding-bottom: 120px;
+    height: 667px;
+
+}
+
+.container-main {
+    height: 888px;
 }
 
 .main-title {
@@ -25,8 +31,10 @@
 }
 
 .cakes {
+    position: relative;
     margin-left: -153px;
     margin-top: -709px;
+    z-index: 5;
 }
 
 .hardening {
@@ -38,9 +46,6 @@
 }
 
 .contact {
-    // display: flex;
-    // align-items: flex-end;
-    // justify-content: flex-end;
     width: 25px;
     height: 25px;
 
@@ -65,4 +70,27 @@
     color: #705A66;
     font-size: 16px;
     width: 287px;
+}
+
+.custom-shape-divider-top-1759830817 {
+    margin-top: -1px;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1759830817 svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 316px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1759830817 .shape-fill {
+    fill: #F5EEE0;
 }

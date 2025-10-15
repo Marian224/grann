@@ -1,3 +1,9 @@
+.delivery {
+    position: relative;
+    background-color: #F5EEE0;
+    overflow: hidden;
+}
+
 .delivery-title {
     list-style: none;
     padding: 0px 106px 0px 106px;
@@ -42,4 +48,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.delivery-custom-shape-divider-top-1759830817 {
+    margin-top: -1px;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.delivery-custom-shape-divider-top-1759830817 svg {
+    margin-bottom: -18px;
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 316px;
+    transform: rotateY(180deg);
+}
+
+.delivery-custom-shape-divider-top-1759830817 .delivery-shape-fill {
+    fill: #F5EEE0;
 }
