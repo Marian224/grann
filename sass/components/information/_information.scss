@@ -1,0 +1,124 @@
+// .information-controls {
+//     // display: flex;
+//     // gap: 8px;
+//     // display: flex;
+//     // justify-content: center;
+// }
+
+.information-button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    color: #705A66;
+    border: none;
+    background-color: #F5F7F8;
+}
+
+.pane {
+    display: none;
+    margin-top: 8px;
+}
+
+.is-active {
+    display: block;
+}
+
+.storage-condition {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #705A66;
+}
+
+.information-delivery-info {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #705A66;
+    list-style: auto;
+}
+
+.information-delivery-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #705A66;
+    margin-left: 20px;
+}
+
+.description-btn {
+    border-bottom: 3px solid #705A66;
+}
+
+.storage-condition-btn {
+    border-bottom: 3px solid #705A66;
+}
+
+.delivery-btn {
+    border-bottom: 3px solid #705A66;
+}
+
+
+// телефон
+
+@media screen and (max-width: 768px) {
+    // .information-controls {
+    //     // display: flex;
+    //     // gap: 8px;
+    //     // display: flex;
+    //     // justify-content: center;
+    // }
+
+    .information-button {
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        line-height: 32px;
+        color: #705A66;
+        border: none;
+        background-color: #F5F7F8;
+    }
+
+    .pane {
+        display: none;
+        margin-top: 8px;
+    }
+
+    .is-active {
+        display: block;
+    }
+
+    .storage-condition {
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        color: #705A66;
+    }
+
+    .information-delivery-info {
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        color: #705A66;
+        list-style: auto;
+    }
+
+    .information-delivery-text {
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        color: #705A66;
+        margin-left: 20px;
+    }
+
+    .description-btn {
+        border-bottom: 3px solid #705A66;
+    }
+
+    .storage-condition-btn {
+        border-bottom: 3px solid #705A66;
+    }
+
+    .delivery-btn {
+        border-bottom: 3px solid #705A66;
+    }
+}

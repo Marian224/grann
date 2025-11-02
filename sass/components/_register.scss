@@ -16,3 +16,27 @@
     font-size: 18px;
     width: 393px;
 }
+
+
+// телефон
+
+@media screen and (max-width: 768px) {
+    .register-photo-text {
+        position: absolute;
+        padding-top: 80px;
+        margin-top: -573px;
+        padding-left: 100px;
+    }
+
+    .register-text {
+        font-family: "Montserrat", sans-serif;
+        position: absolute;
+        margin-top: -557px;
+        padding-top: 280px;
+        padding-left: 100px;
+        color: #F5F7F8;
+        line-height: 24px;
+        font-size: 18px;
+        width: 393px;
+    }
+}

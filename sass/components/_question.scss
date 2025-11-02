@@ -43,6 +43,62 @@
 }
 
 .arrow-icon {
-    width: 22px;
-    height: 22px;
+    width: 127px;
+    height: 105px;
+    fill: #705A66;
+}
+
+
+// телефон
+
+@media screen and (max-width: 768px) {
+    .question-text {
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        line-height: 32px;
+        color: #705A66;
+        font-weight: 500;
+        padding: 56px 0px 56px 0px;
+    }
+
+    .accordion-item {
+        margin-bottom: 10px;
+
+    }
+
+    .accordion-title {
+        // background-color: #f4f4f4;
+        padding: 10px;
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        line-height: 32px;
+        color: #705A66;
+        font-weight: 500;
+        padding: 56px 0px 56px 0px;
+        border-bottom: 1px solid #705A66;
+    }
+
+    .accordion-content {
+        font-family: "Montserrat", sans-serif;
+        line-height: 24px;
+        font-size: 18px;
+        display: none;
+        padding: 10px;
+        color: #705A66;
+    }
+
+    .accordion-content p {
+        margin: 0;
+    }
+
+    .arrow {
+        float: right;
+    }
+
+    .arrow-icon {
+        width: 127px;
+        height: 105px;
+        fill: #705A66;
+    }
 }

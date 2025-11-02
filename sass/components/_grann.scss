@@ -55,7 +55,7 @@
      position: relative;
      background-color: #F5EEE0;
      overflow: hidden;
-    //  width: 500px;
+     //  width: 500px;
  }
 
 
@@ -80,4 +80,93 @@
 
  .grann-custom-shape-divider-top-1759830817 .grann-shape-fill {
      fill: #F5EEE0;
+ }
+
+
+ // телефон
+
+ @media screen and (max-width: 768px) {
+     .grann {
+         //  display: flex;
+         position: relative;
+         background-color: #F5EEE0;
+         overflow: hidden;
+     }
+
+
+     .grann-photo {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-left: 305px;
+         margin-top: -335px;
+     }
+
+     .grann-text {
+         font-family: "Montserrat", sans-serif;
+         color: #705A66;
+         line-height: 32px;
+         font-size: 24px;
+         text-align: center;
+     }
+
+     .grann-main {
+         width: 287px;
+         margin-top: 204px;
+         margin-left: 124px;
+         text-align: center;
+     }
+
+     .grann-text-down {
+         font-family: "Montserrat", sans-serif;
+         line-height: 24px;
+         font-size: 18px;
+         color: #705A66;
+         text-align: center;
+     }
+
+     .grann-text-order {
+         width: 393px;
+         margin-top: -424px;
+         margin-left: 819px;
+         text-align: center;
+     }
+
+     .grann-text-weight {
+         width: 499px;
+         margin-left: 361px;
+         margin-top: 88px;
+         text-align: center;
+     }
+
+     .grann-photo-down {
+         position: relative;
+         background-color: #F5EEE0;
+         overflow: hidden;
+         //  width: 500px;
+     }
+
+
+     .grann-custom-shape-divider-top-1759830817 {
+         margin-top: -1px;
+         position: static;
+         top: 0;
+         left: 0;
+         width: 100%;
+         overflow: hidden;
+         line-height: 0;
+         //  transform: rotate(180deg);
+     }
+
+     .grann-custom-shape-divider-top-1759830817 svg {
+         position: relative;
+         display: block;
+         width: calc(127% + 1.3px);
+         height: 316px;
+         //  transform: rotateY(180deg);
+     }
+
+     .grann-custom-shape-divider-top-1759830817 .grann-shape-fill {
+         fill: #F5EEE0;
+     }
  }

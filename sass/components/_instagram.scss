@@ -25,6 +25,12 @@
     text-transform: uppercase;
 }
 
+.instagram-btn:hover {
+    border: none;
+    background-color: #DDD5C6;
+    cursor: pointer;
+}
+
 .instagram-btn-all {
     display: flex;
     align-items: center;
@@ -44,4 +50,63 @@
 .instagram-arrow {
     margin-top: -76px;
     margin-right: 46px;
+}
+
+
+// телефон
+
+@media screen and (max-width: 768px) {
+    .instagram-photo {
+        padding-bottom: 30px;
+        padding-right: 30px;
+        width: 380px;
+    }
+
+    .instagram-photo-title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instagram-btn {
+        font-family: "Montserrat", sans-serif;
+        line-height: 32px;
+        font-size: 24px;
+        color: #705A66;
+        background-color: #F5EEE0;
+        border: 1px solid white;
+        text-align: center;
+        width: 608px;
+        height: 67px;
+        border-radius: 10px;
+        text-transform: uppercase;
+    }
+
+    .instagram-btn:hover {
+        border: none;
+        background-color: #DDD5C6;
+        cursor: pointer;
+    }
+
+    .instagram-btn-all {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .instagram-pointer {
+        margin-left: 21px;
+        margin-bottom: 100px;
+    }
+
+    .instagram-pointer-down {
+        margin-bottom: 61px;
+        margin-left: -18px;
+    }
+
+    .instagram-arrow {
+        margin-top: -76px;
+        margin-right: 46px;
+    }
 }

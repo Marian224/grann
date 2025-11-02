@@ -6,7 +6,25 @@ body {
 .container {
     width: 1240px;
     margin: 0 auto;
-    border: 1px solid red;
+    // border: 1px solid red;
     overflow: hidden;
     margin-bottom: 120px;
+}
+
+
+// телефон
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .container {
+        width: 1240px;
+        margin: 0 auto;
+        // border: 1px solid red;
+        overflow: hidden;
+        margin-bottom: 120px;
+    }
 }

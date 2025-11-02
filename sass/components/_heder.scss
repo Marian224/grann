@@ -20,3 +20,31 @@
     text-transform: uppercase;
     text-decoration: none;
 }
+
+
+// телефон
+
+@media screen and (max-width: 768px) {
+    .menu {
+        padding-bottom: 26px;
+        margin-top: 0px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 40px;
+        background-color: #F5EEE0;
+        // border: 1px solid black;
+        margin-bottom: 0px;
+    }
+
+    .menu-link {
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        color: #705A66;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}

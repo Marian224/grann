@@ -73,3 +73,84 @@
 .delivery-custom-shape-divider-top-1759830817 .delivery-shape-fill {
     fill: #F5EEE0;
 }
+
+
+// телефон
+
+@media screen and (max-width: 768px) {
+    .delivery {
+        position: relative;
+        background-color: #F5EEE0;
+        overflow: hidden;
+    }
+
+    .delivery-title {
+        list-style: none;
+        padding: 0px 106px 0px 106px;
+    }
+
+    .delivery-name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        margin-top: 64px;
+    }
+
+    .delivery-photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .delivery-text {
+        font-family: "Montserrat", sans-serif;
+        line-height: 32px;
+        font-size: 24px;
+        color: #705A66;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .delivery-description {
+        font-family: "Montserrat", sans-serif;
+        color: #705A66;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+
+    }
+
+    .delivery-text-badges {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .delivery-custom-shape-divider-top-1759830817 {
+        margin-top: -1px;
+        position: static;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+
+    .delivery-custom-shape-divider-top-1759830817 svg {
+        margin-bottom: -18px;
+        position: relative;
+        display: block;
+        width: calc(127% + 1.3px);
+        height: 316px;
+        transform: rotateY(180deg);
+    }
+
+    .delivery-custom-shape-divider-top-1759830817 .delivery-shape-fill {
+        fill: #F5EEE0;
+    }
+}
