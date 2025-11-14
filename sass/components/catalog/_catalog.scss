@@ -21,9 +21,10 @@
     color: #F5F7F8;
 }
 
-.catalog-btn-title {
+.catalog-btn-list {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
@@ -51,7 +52,7 @@
     margin-right: 50px;
 }
 
-.catalog-name {
+.catalog-list {
     // margin-right: 122px;
     display: flex;
     justify-content: space-around;
@@ -208,10 +209,11 @@
         color: #F5F7F8;
     }
 
-    .catalog-btn-title {
+    .catalog-btn-list {
+        margin-left: -21px;
         list-style: none;
         display: flex;
-        gap: 32px;
+        gap: 27px;
     }
 
 
@@ -227,7 +229,7 @@
     }
 
     .catalog-img {
-        width: 393px;
+        width: 177px;
     }
 
     .catalog-arrows {
@@ -238,19 +240,18 @@
         margin-right: 50px;
     }
 
-    .catalog-name {
-        // margin-right: 122px;
+    .catalog-list {
+        gap: 19px;
+        width: 437px;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        // gap: 92px;
         padding-left: 0;
     }
 
     .catalog-photo {
-        width: 393px;
+        width: 168px;
         list-style: none;
-        // border: 1px solid red;
         margin-bottom: 32px;
         border: none;
     }
@@ -265,9 +266,9 @@
     .catalog-text {
         color: #705A66;
         font-family: "Montserrat", sans-serif;
-        line-height: 32px;
+        line-height: 22px;
         font-weight: 600;
-        font-size: 24px;
+        font-size: 17px;
         margin-top: 9px;
     }
 
@@ -280,8 +281,8 @@
     .catalog-price {
         color: #705A66;
         font-family: "Montserrat", sans-serif;
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 14px;
+        line-height: 18px;
     }
 
     .catalog-img-caramel {
@@ -335,9 +336,9 @@
     }
 
     .catalog-switch {
+        margin-left: -788px;
         display: flex;
         align-items: center;
-        justify-content: center;
         gap: 34px;
         font-family: "Montserrat", sans-serif;
     }

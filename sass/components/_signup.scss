@@ -1,8 +1,11 @@
 .signup {
-    position: absolute;
-    margin-left: 741px;
-    margin-top: -544px;
+    margin-top: 29px;
     color: #F5F7F8;
+}
+
+.signup-block {
+    display: flex;
+    gap: 140px;
 }
 
 .signup-input {
@@ -53,9 +56,9 @@
 
 @media screen and (max-width: 768px) {
     .signup {
+        margin-top: 274px;
+        margin-left: 7px;
         position: absolute;
-        margin-left: 741px;
-        margin-top: -544px;
         color: #F5F7F8;
     }
 
@@ -65,7 +68,7 @@
         padding-left: 32px;
         border: 1px solid white;
         border-radius: 10px;
-        width: 433px;
+        width: 265px;
         height: 60px;
         line-height: 24px;
         font-size: 18px;
@@ -78,7 +81,7 @@
         padding-top: 19px;
         border-radius: 10px;
         border: 1px solid white;
-        width: 433px;
+        width: 265px;
         height: 180px;
         line-height: 24px;
         font-size: 18px;
@@ -92,7 +95,7 @@
         border: 1px solid white;
         line-height: 32px;
         font-size: 24px;
-        width: 471px;
+        width: 301px;
         height: 67px;
     }
 

@@ -67,15 +67,26 @@
     }
 
     .accordion-title {
-        // background-color: #f4f4f4;
-        padding: 10px;
+        width: 231px;
         cursor: pointer;
         font-family: "Montserrat", sans-serif;
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 16px;
+        line-height: 22px;
         color: #705A66;
         font-weight: 500;
-        padding: 56px 0px 56px 0px;
+        padding: 0px 78px 56px 0px;
+        border-bottom: 1px solid #705A66;
+    }
+
+    .accordion-title-phone{
+        width: 231px;
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        line-height: 22px;
+        color: #705A66;
+        font-weight: 500;
+        padding: 0px 78px 56px 0px;
         border-bottom: 1px solid #705A66;
     }
 
@@ -93,6 +104,9 @@
     }
 
     .arrow {
+        left: 106px;
+        top: -92px;
+        position: relative;
         float: right;
     }
 
@@ -100,5 +114,9 @@
         width: 127px;
         height: 105px;
         fill: #705A66;
+    }
+
+    .accordion {
+        margin-left: 4px;
     }
 }

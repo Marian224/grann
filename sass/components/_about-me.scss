@@ -68,28 +68,31 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 20px 20px 20px 20px;
+        padding: 20px 20px 20px 2px
     }
 
     .about-me-face {
+        position: absolute;
+        margin-left: -11px;
+        width: 292px;
         padding-bottom: 300px;
     }
 
     .about-me-photo {
+        display: none;
         position: absolute;
         margin-top: 78px;
         margin-left: 30px;
     }
 
     .about-me-title {
-        position: absolute;
         font-family: "Montserrat", sans-serif;
         color: #705A66;
-        line-height: 32px;
-        font-size: 24px;
+        line-height: 22px;
+        font-size: 16px;
         font-weight: 500;
-        margin-left: 641px;
-        margin-top: -667px;
+        margin-left: 1px;
+        margin-top: 461px;
     }
 
     .about-me-position {
@@ -111,18 +114,19 @@
     }
 
     .about-me-text {
+        width: 311px;
         font-family: "Montserrat", sans-serif;
-        margin-left: 635px;
-        margin-top: -539px;
+        margin-left: 0px;
+        margin-top: 620px;
         color: #705A66;
-        line-height: 24px;
-        font-size: 18px;
+        line-height: 22px;
+        font-size: 16px;
     }
 
     .about-me-description {
         font-family: "Montserrat", sans-serif;
         color: #705A66;
         line-height: 22px;
-        font-size: 16px;
+        font-size: 14px;
     }
 }

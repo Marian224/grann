@@ -38,18 +38,34 @@
 }
 
 .instagram-pointer {
+    display: block;
     margin-left: 21px;
     margin-bottom: 100px;
 }
 
 .instagram-pointer-down {
+    display: block;
     margin-bottom: 61px;
     margin-left: -18px;
 }
 
 .instagram-arrow {
+    display: block;
     margin-top: -76px;
     margin-right: 46px;
+}
+
+.instagram-arrows {
+    display: none;
+}
+
+.instagram-arrow-img {
+    display: none;
+
+}
+
+.instagram-dots-name {
+    display: none;
 }
 
 
@@ -59,25 +75,26 @@
     .instagram-photo {
         padding-bottom: 30px;
         padding-right: 30px;
-        width: 380px;
+        width: 261px;
     }
 
     .instagram-photo-title {
+        margin-left: 522px;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
     }
 
     .instagram-btn {
         font-family: "Montserrat", sans-serif;
-        line-height: 32px;
-        font-size: 24px;
+        line-height: 24px;
+        font-size: 18px;
         color: #705A66;
         background-color: #F5EEE0;
         border: 1px solid white;
         text-align: center;
-        width: 608px;
+        width: 355px;
         height: 67px;
         border-radius: 10px;
         text-transform: uppercase;
@@ -90,23 +107,57 @@
     }
 
     .instagram-btn-all {
+        margin-top: 56px;
+        margin-left: 7px;
+        width: 300px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .instagram-pointer {
+        display: none;
         margin-left: 21px;
         margin-bottom: 100px;
     }
 
     .instagram-pointer-down {
+        display: none;
         margin-bottom: 61px;
         margin-left: -18px;
     }
 
     .instagram-arrow {
+        display: none;
         margin-top: -76px;
         margin-right: 46px;
+    }
+
+    .instagram-btn-arrows {
+        display: block;
+        z-index: 5;
+        margin-left: -4px;
+        margin-top: -197px;
+        position: absolute;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        gap: 157px;
+        margin-right: 50px;
+    }
+
+    .instagram-arrow-img {
+        display: block;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .instagram-dots-name {
+        margin-left: 72px;
+        display: flex;
+        list-style: none;
+        gap: 16px;
+        margin-top: 31px;
     }
 }
