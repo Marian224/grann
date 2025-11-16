@@ -103,6 +103,7 @@
 
 @media screen and (max-width: 768px) {
     .footer {
+        height: 709px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -116,7 +117,7 @@
         line-height: 24px;
         display: flex;
         flex-direction: column;
-        margin-left: 100px;
+        margin-left: 61px;
         margin-top: 88px;
         margin-bottom: -3px;
         text-decoration: none;
@@ -187,14 +188,15 @@
     }
 
     .footer-title {
-        margin-left: 490px;
-        margin-top: -190px;
+        margin-top: -379px;
+        position: absolute;
+        margin-left: 92px;
     }
 
     .footer-right-photo {
         position: absolute;
-        margin-left: 944px;
-        margin-top: -124px;
+        margin-left: 62px;
+        margin-top: 80px;
     }
 
     .footer-right {

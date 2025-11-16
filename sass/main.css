@@ -350,11 +350,11 @@ body {
   }
   .phone-img {
     margin-top: 51px;
-    margin-left: 115px;
+    margin-left: 174px;
   }
   .icon-phone {
     margin-bottom: 12px;
-    margin-left: 67px;
+    margin-left: 133px;
     width: 25px;
     fill: #705A66;
   }
@@ -418,6 +418,7 @@ body {
 }
 
 .js-open-menu {
+  right: 40px;
   margin-top: -60px;
 }
 
@@ -1749,6 +1750,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .footer {
+    height: 709px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1761,7 +1763,7 @@ body {
     line-height: 24px;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 61px;
     margin-top: 88px;
     margin-bottom: -3px;
     text-decoration: none;
@@ -1818,13 +1820,14 @@ body {
     padding-bottom: 0px;
   }
   .footer-title {
-    margin-left: 490px;
-    margin-top: -190px;
+    margin-top: -379px;
+    position: absolute;
+    margin-left: 92px;
   }
   .footer-right-photo {
     position: absolute;
-    margin-left: 944px;
-    margin-top: -124px;
+    margin-left: 62px;
+    margin-top: 80px;
   }
   .footer-right {
     gap: 30px;
@@ -2008,6 +2011,11 @@ body {
   align-self: flex-start;
 }
 
+.catalog-name {
+  display: flex;
+  gap: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .catalog-btn {
     font-family: "Montserrat", sans-serif;
@@ -2167,9 +2175,11 @@ body {
 .switch {
   display: flex;
   list-style: none;
+  gap: 25px;
 }
 
 .product-switch {
+  margin-left: 4px;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   color: #705A66;
@@ -2189,7 +2199,6 @@ body {
 }
 
 .product-order {
-  width: 355px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2376,7 +2385,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 32px;
+    width: 409px;
   }
   .container-product {
     flex-direction: column;
@@ -2421,6 +2430,8 @@ body {
     padding-right: 32px;
   }
   .product-btn-order {
+    height: 73px;
+    width: 287px;
     font-family: "Montserrat", sans-serif;
     line-height: 32px;
     font-size: 24px;
@@ -2431,10 +2442,11 @@ body {
     padding: 13px 50px 13px 50px;
   }
   .product-order-text {
+    flex-direction: column;
     display: flex;
     width: 518px;
     margin-top: 48px;
-    margin-left: 148px;
+    margin-left: 44px;
     align-items: center;
   }
   .product-text {
@@ -2446,7 +2458,12 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     color: #705A66;
-    margin-left: -140px;
+    margin-left: 0px;
+  }
+  .product-text-sale-phone {
+    display: flex;
+    align-items: center;
+    gap: 16px;
   }
   .product-switch {
     display: flex;
