@@ -373,4 +373,12 @@
     .catalog-icon {
         align-self: flex-start;
     }
+
+    .catalog-name {
+        margin-left: -16px;
+        width: 357px;
+        flex-wrap: wrap;
+        display: flex;
+        gap: 20px;
+    }
 }

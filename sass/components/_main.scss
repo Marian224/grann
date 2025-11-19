@@ -141,11 +141,13 @@
     }
 
     .main-title-phone {
+        width: 355px;
+        margin-left: 31px;
         font-family: Montserrat, sans-serif;
         color: rgb(112, 90, 102);
         text-align: center;
         font-size: 68px;
-        line-height: 110px;
+        line-height: 80px;
         font-weight: 600;
         margin-top: 0px;
         display: block;
@@ -164,14 +166,21 @@
     }
 
     .main-title {
-        width: 315px;
+        margin-left: 42px;
+        width: 355px;
         font-family: "Montserrat", sans-serif;
         color: #705A66;
         text-align: center;
-        font-size: 45px;
+        font-size: 70px;
         line-height: 80px;
         font-weight: 600;
         margin-top: 0px;
+    }
+
+    .main-title-bestsaller {
+        font-size: 60px;
+        width: 355px;
+        margin-left: 9px;
     }
 
     .main-title-h1 {
@@ -186,10 +195,10 @@
     }
 
     .pudding {
-        width: 107px;
+        width: 141px;
         align-items: center;
         justify-content: center;
-        margin-bottom: 488px;
+        margin-bottom: 517px;
         margin-left: -9px;
     }
 
@@ -202,7 +211,7 @@
     }
 
     .hardening {
-        width: 105px;
+        width: 128px;
         margin-bottom: 329px;
         margin-left: -17px;
     }
@@ -210,7 +219,7 @@
     .circlet {
         margin-bottom: 372px;
         margin-left: -6px;
-        width: 132px;
+        width: 150px;
     }
 
     .contact {
@@ -240,8 +249,18 @@
         color: #705A66;
         font-size: 16px;
         width: 190px;
-        margin-left: -832px;
+        margin-left: -821px;
         margin-top: 105px;
+    }
+
+    .main-title-question {
+        margin-left: -6px;
+        font-size: 30px;
+    }
+
+    .main-title-card {
+        font-size: 45px;
+        margin-left: 37px;
     }
 
     .custom-shape-divider-top-1759830817 {

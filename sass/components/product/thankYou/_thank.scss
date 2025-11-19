@@ -68,6 +68,7 @@
 
 @media screen and (max-width: 768px) {
     .thank-you {
+        width: 355px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -75,26 +76,31 @@
     }
 
     .thank-you-title {
+        margin-left: 74px;
+        width: 355px;
         font-family: "Montserrat", sans-serif;
         color: #705A66;
         text-align: center;
-        font-size: 70px;
-        line-height: 110px;
+        font-size: 55px;
+        line-height: 80px;
         font-weight: 600;
         margin-top: 0px;
     }
 
     .thank-you-text {
-        width: 663px;
+        margin-left: 80px;
+        width: 355px;
         font-family: "Montserrat", sans-serif;
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 22px;
         color: #705A66;
         text-align: center;
     }
 
     .thank-you-btn-title {
         display: flex;
+        flex-direction: column;
+        margin-left: 86px;
         gap: 32px;
     }
 
@@ -103,7 +109,7 @@
         font-size: 24px;
         line-height: 32px;
         color: #705A66;
-        width: 393px;
+        width: 355px;
         height: 67px;
         border-radius: 10px;
         border: none;
@@ -120,7 +126,7 @@
         font-size: 24px;
         line-height: 32px;
         color: #F5EEE0;
-        width: 393px;
+        width: 355px;
         height: 67px;
         border-radius: 10px;
         border: none;
@@ -130,5 +136,9 @@
     .thank-you-btn-right:hover {
         background-color: #3a3730;
         cursor: pointer;
+    }
+
+    .thank-you-img {
+        margin-left: 113px;
     }
 }

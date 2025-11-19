@@ -237,6 +237,7 @@
     }
 
     .product-name {
+        
         font-family: "Montserrat", sans-serif;
         color: #705A66;
         line-height: 22px;
@@ -396,11 +397,13 @@
     }
 
     .product-title-h2 {
+        margin-left: 26px;
+        width: 255px;
         font-weight: 400;
         font-family: "Montserrat", sans-serif;
         color: #705A66;
-        font-size: 42px;
-        line-height: 48px;
+        font-size: 18px;
+        line-height: 24px;
     }
 
     .product-bg {

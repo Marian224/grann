@@ -94,7 +94,7 @@
     text-shadow: 3px 3px 3px 3px #705A66;
 }
 
-.bestsaller-dots-name{
+.bestsaller-dots-name {
     display: none;
 }
 
@@ -113,7 +113,7 @@
     }
 
     .bestsaller-img {
-        width: 308px;
+        width: 355px;
     }
 
     .bestsaller-photo-hiden {
@@ -122,8 +122,8 @@
 
     .bestsaller-arrows {
         z-index: 5;
-        margin-left: 3px;
-        margin-top: 949px;
+        margin-left: 61px;
+        margin-top: 1042px;
         position: absolute;
         display: flex;
         align-items: flex-end;
@@ -133,6 +133,7 @@
     }
 
     .bestsaller-name {
+        margin-left: 33px;
         flex-direction: column;
         display: flex;
         justify-content: space-around;
@@ -186,7 +187,7 @@
         color: #705A66;
         font-size: 24px;
         background-color: #F5EEE0;
-        padding: 20px 20px;
+        padding: 20px 20px 20px 51px;
         border-radius: 10px;
         margin-top: 82px;
         text-decoration: none;
@@ -198,8 +199,8 @@
     }
 
     .bestsaller-button-link {
-        margin-left: 7px;
-        width: 300px;
+        margin-left: 43px;
+        width: 355px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -211,8 +212,8 @@
         text-shadow: 3px 3px 3px 3px #705A66;
     }
 
-    .bestsaller-dots-name{
-        margin-left: 72px;
+    .bestsaller-dots-name {
+        margin-left: 126px;
         display: flex;
         list-style: none;
         gap: 16px;
