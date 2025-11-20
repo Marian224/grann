@@ -44,3 +44,27 @@
         fill: #705A66;
     }
 }
+
+// планшет
+@media screen and (max-width: 1023px) {
+    .icon-list {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .icon {
+        width: 25px;
+        fill: #705A66;
+        margin-left: -250px;
+    }
+
+    .icon:hover {
+        fill: #03a9f4;
+    }
+
+    .icon-card {
+        width: 25px;
+        fill: #705A66;
+    }
+}

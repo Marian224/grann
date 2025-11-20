@@ -132,3 +132,68 @@
         font-size: 14px;
     }
 }
+
+// планшет
+@media screen and (max-width: 1023px) {
+    .about-me {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .about-me-face {
+        padding-bottom: 300px;
+    }
+
+    .about-me-photo {
+        position: absolute;
+        margin-top: 78px;
+        margin-left: 30px;
+    }
+
+    .about-me-title {
+        position: absolute;
+        font-family: "Montserrat", sans-serif;
+        color: #705A66;
+        line-height: 32px;
+        font-size: 24px;
+        font-weight: 500;
+        margin-left: 641px;
+        margin-top: -667px;
+    }
+
+    .about-me-position {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        margin-left: 500px;
+        margin-top: -200px;
+    }
+
+    .about-me-name {
+        font-family: "Montserrat", sans-serif;
+        color: #705A66;
+        line-height: 32px;
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 0px;
+    }
+
+    .about-me-text {
+        font-family: "Montserrat", sans-serif;
+        margin-left: 635px;
+        margin-top: -539px;
+        color: #705A66;
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    .about-me-description {
+        font-family: "Montserrat", sans-serif;
+        color: #705A66;
+        line-height: 22px;
+        font-size: 16px;
+    }
+}

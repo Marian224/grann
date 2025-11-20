@@ -220,3 +220,106 @@
         margin-top: 31px;
     }
 }
+
+// планшет
+@media screen and (max-width: 1023px) {
+    .bestsaller {
+        display: flex;
+    }
+
+    .bestsaller-arrow-img {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .bestsaller-img {
+        width: 340px;
+    }
+
+    .bestsaller-arrows {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        gap: 32px;
+        margin-right: 50px;
+    }
+
+    .bestsaller-name {
+        display: flex;
+        justify-content: space-around;
+        gap: 32px;
+    }
+
+    .bestsaller-photo {
+        list-style: none;
+    }
+
+    .bestsaller-photo:hover {
+        border: 1px solid #705A66;
+        transform: scale(0.9);
+        border: none;
+        cursor: pointer;
+    }
+
+    .bestsaller-text {
+        color: #705A66;
+        font-family: "Montserrat", sans-serif;
+        line-height: 32px;
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .bestsaller-text:hover {
+        font-weight: 900;
+        text-shadow: 3px 3px 3px 3px #705A66;
+    }
+
+    .bestsaller-text-shop {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bestsaller-price {
+        color: #705A66;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .bestsaller-img-caramel {
+        height: 340px;
+    }
+
+    .bestsaller-button {
+        font-family: "Montserrat", sans-serif;
+        color: #705A66;
+        font-size: 24px;
+        background-color: #F5EEE0;
+        padding: 20px 80px;
+        border-radius: 10px;
+        margin-top: 82px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .bestsaller-button:hover {
+        background-color: #DDD5C6;
+    }
+
+    .bestsaller-button-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .product-text-wraper {
+        text-decoration: none;
+        font-weight: 900;
+        text-shadow: 3px 3px 3px 3px #705A66;
+    }
+
+    .bestsaller-dots-name {
+        display: none;
+    }
+}

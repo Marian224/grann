@@ -105,3 +105,59 @@
         cursor: pointer;
     }
 }
+
+// планшет
+@media screen and (max-width: 1023px) {
+    .signup {
+        margin-top: 29px;
+        color: #F5F7F8;
+    }
+
+    .signup-block {
+        display: flex;
+        gap: 140px;
+    }
+
+    .signup-input {
+        font-family: "Montserrat", sans-serif;
+        color: #705A66;
+        padding-left: 32px;
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 433px;
+        height: 60px;
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    .signup-textarea {
+        font-family: "Montserrat", sans-serif;
+        color: #705A66;
+        padding-left: 32px;
+        padding-top: 19px;
+        border-radius: 10px;
+        border: 1px solid white;
+        width: 433px;
+        height: 180px;
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    .signup-btn {
+        font-family: "Montserrat", sans-serif;
+        color: #705A66;
+        background-color: #F5EEE0;
+        border-radius: 10px;
+        border: 1px solid white;
+        line-height: 32px;
+        font-size: 24px;
+        width: 471px;
+        height: 67px;
+    }
+
+    .signup-btn:hover {
+        border: none;
+        background-color: #DDD5C6;
+        cursor: pointer;
+    }
+}

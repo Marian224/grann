@@ -95,26 +95,7 @@
     fill: #F5EEE0;
 }
 
-.menu-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 87vw;
-    height: 100vh;
-    padding: 32px;
-    background-color: #705A66;
-    z-index: 999;
-    visibility: hidden;
-    transform: translateX(100%);
-    transition: transform 250ms ease-in-out;
-}
 
-.page-header-phone {
-    height: 145px;
-    background-color: #F5EEE0;
-    margin-bottom: -7px;
-    display: none;
-}
 
 .main-title-phone {
     font-family: Montserrat, sans-serif;
@@ -150,13 +131,6 @@
         line-height: 80px;
         font-weight: 600;
         margin-top: 0px;
-        display: block;
-    }
-
-    .page-header-phone {
-        height: 160px;
-        background-color: #F5EEE0;
-        margin-bottom: -7px;
         display: block;
     }
 
@@ -286,148 +260,119 @@
         fill: #F5EEE0;
     }
 
-    .phone-img {
-        margin-top: 51px;
-        margin-left: 174px;
-    }
 
-    .icon-phone {
-        margin-bottom: 12px;
-        margin-left: 133px;
-        width: 25px;
-        fill: #705A66;
-    }
+}
 
-    .page-header {
-        height: 119px;
+
+// планшет
+@media screen and (max-width: 1023px) {
+    .main {
         background-color: #F5EEE0;
-        margin-bottom: -7px;
-        // box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
-        //     0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+        border-bottom: 5px solid rgb(255, 0, 0);
+        border: 1px solid white;
+        padding-bottom: 120px;
+        height: 667px;
+
     }
 
-    .menu-container {
-        position: fixed;
+    .container-main {
+        height: 888px;
+    }
+
+    .main-title {
+        font-family: "Montserrat", sans-serif;
+        color: #705A66;
+        text-align: center;
+        font-size: 60px;
+        line-height: 97px;
+        font-weight: 600;
+        margin-top: 0px;
+    }
+
+    .pudding {
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 378px;
+
+    }
+
+    .cakes {
+        position: relative;
+        width: 401px;
+        left: 109px;
+    }
+
+    .hardening {
+        width: 240px;
+        margin-bottom: 146px;
+    }
+
+    .circlet {
+        margin-bottom: 89px;
+        width: 247px;
+        margin-left: 31px;
+    }
+
+    .contact {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .vraper-social {
+        display: flex;
+        margin-top: -158px;
+        margin-left: 501px;
+
+    }
+
+    .social-list {
+        list-style: none;
+        flex-direction: column;
+        display: none;
+        gap: 20px;
+    }
+
+    .main-description-social {
+        font-family: "Montserrat", sans-serif;
+        color: #705A66;
+        font-size: 16px;
+        width: 287px;
+    }
+
+    .custom-shape-divider-top-1759830817 {
+        margin-top: -1px;
+        position: static;
         top: 0;
         left: 0;
-        width: 87vw;
-        height: 100vh;
-        padding: 32px;
-        background-color: #705A66;
-        z-index: 999;
-        visibility: visible;
-        transform: translateX(100%);
-        transition: transform 250ms ease-in-out;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
     }
-}
 
-
-.page-header {
-    height: 119px;
-    background-color: #F5EEE0;
-    margin-bottom: -7px;
-}
-
-@media (max-width: 767px) {
-    .menu {
-        visibility: hidden;
-        margin-top: -202px;
+    .custom-shape-divider-top-1759830817 svg {
+        position: relative;
+        display: block;
+        width: calc(127% + 1.3px);
+        height: 316px;
+        transform: rotateY(180deg);
     }
-}
 
+    .custom-shape-divider-top-1759830817 .shape-fill {
+        fill: #F5EEE0;
+    }
 
+    .main-title-phone {
+        font-family: Montserrat, sans-serif;
+        color: rgb(112, 90, 102);
+        text-align: center;
+        font-size: 100px;
+        line-height: 110px;
+        font-weight: 600;
+        margin-top: 0px;
+        display: none;
+    }
 
-
-.menu .link {
-    padding: 10px;
-    color: inherit;
-    text-decoration: none;
-}
-
-.menu .link:hover,
-.menu .link:focus {
-    text-decoration: underline;
-}
-
-.menu-toggle {
-    color: #705A66;
-    position: absolute;
-    min-height: 40px;
-    min-width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 226px;
-    padding: 0;
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-    border-radius: 50%;
-    outline: none;
-}
-
-.js-open-menu {
-    right: 40px;
-    margin-top: -60px;
-}
-
-@media (min-width: 768px) {
-    // .menu-toggle {
-    //     // display: none;
-    // }
-}
-
-.menu-toggle:hover,
-.menu-toggle:focus {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-.menu-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 87vw;
-    height: 100vh;
-    padding: 32px;
-    background-color: #705A66;
-    z-index: 999;
-    // overflow: hidden;
-    transform: translateX(100%);
-    transition: transform 250ms ease-in-out;
-}
-
-.menu-container.is-open {
-    transform: translateX(0);
-}
-
-.menu-container .menu-toggle {
-
-    position: absolute;
-    top: 16px;
-    right: 141px;
-    color: #fff;
-}
-
-.mobile-menu {
-    font-family: "Montserrat", sans-serif;
-    line-height: 18px;
-    font-size: 24px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.mobile-menu .link {
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.menu-img-phone {
-    margin-top: 11px;
-    margin-left: -358px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }

@@ -28,3 +28,20 @@ body {
         margin-bottom: 120px;
     }
 }
+
+// планшет
+@media screen and (max-width: 1023px) {
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .container {
+        border: 1px solid red;
+        width: 780px;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-bottom: 120px;
+    }
+
+}

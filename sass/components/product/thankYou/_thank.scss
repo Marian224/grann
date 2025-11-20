@@ -142,3 +142,71 @@
         margin-left: 113px;
     }
 }
+
+// планшет
+@media screen and (max-width: 1023px) {
+    .thank-you {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .thank-you-title {
+        font-family: "Montserrat", sans-serif;
+        color: #705A66;
+        text-align: center;
+        font-size: 70px;
+        line-height: 110px;
+        font-weight: 600;
+        margin-top: 0px;
+    }
+
+    .thank-you-text {
+        width: 663px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        color: #705A66;
+        text-align: center;
+    }
+
+    .thank-you-btn-title {
+        display: flex;
+        gap: 32px;
+    }
+
+    .thank-you-btn {
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        line-height: 32px;
+        color: #705A66;
+        width: 393px;
+        height: 67px;
+        border-radius: 10px;
+        border: none;
+        background-color: #F5EEE0;
+    }
+
+    .thank-you-btn:hover {
+        background-color: #DDD5C6;
+        cursor: pointer;
+    }
+
+    .thank-you-btn-right {
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        line-height: 32px;
+        color: #F5EEE0;
+        width: 393px;
+        height: 67px;
+        border-radius: 10px;
+        border: none;
+        background-color: #705A66;
+    }
+
+    .thank-you-btn-right:hover {
+        background-color: #3a3730;
+        cursor: pointer;
+    }
+}

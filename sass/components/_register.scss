@@ -61,3 +61,34 @@
         width: 500px;
     }
 }
+
+// планшет
+@media screen and (max-width: 1023px) {
+    .register {
+        background-image: url("../../img/register/bg-section-register.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 565px;
+    }
+
+    .register-photo-text {
+        padding-top: 0px;
+        padding-left: 27px;
+    }
+
+    .register-text {
+        font-family: "Montserrat", sans-serif;
+        padding-top: 0px;
+        color: #F5F7F8;
+        line-height: 24px;
+        font-size: 18px;
+        width: 393px;
+    }
+
+    .register-photo-title {
+        margin-top: 80px;
+        margin-left: 80px;
+        height: 300px;
+        width: 500px;
+    }
+}
