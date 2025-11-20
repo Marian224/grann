@@ -191,7 +191,7 @@
  }
 
  // планшет
- @media screen and (max-width: 1023px) {
+ @media (min-width: 769px) and (max-width: 1023px) {
      .grann {
          //  display: flex;
          position: relative;
@@ -262,6 +262,8 @@
      }
 
      .grann-img-down {
+         margin-left: 190px;
+         width: 400px;
          display: block;
      }
 

@@ -844,7 +844,7 @@ body.show-modal .modal {
 }
 
 // планшет
-@media screen and (max-width: 1023px) {
+@media (min-width: 769px) and (max-width: 1023px) {
     .card-shop {
         font-family: "Montserrat", sans-serif;
         text-decoration: none;

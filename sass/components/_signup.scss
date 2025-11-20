@@ -107,7 +107,7 @@
 }
 
 // планшет
-@media screen and (max-width: 1023px) {
+@media (min-width: 769px) and (max-width: 1023px) {
     .signup {
         margin-top: 29px;
         color: #F5F7F8;

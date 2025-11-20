@@ -384,7 +384,7 @@
 }
 
 // планшет
-@media screen and (max-width: 1023px) {
+@media (min-width: 769px) and (max-width: 1023px) {
     .catalog-btn {
         font-family: "Montserrat", sans-serif;
         color: #705A66;

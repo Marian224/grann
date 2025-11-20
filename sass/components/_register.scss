@@ -63,7 +63,7 @@
 }
 
 // планшет
-@media screen and (max-width: 1023px) {
+@media (min-width: 769px) and (max-width: 1023px) {
     .register {
         background-image: url("../../img/register/bg-section-register.png");
         background-repeat: no-repeat;
