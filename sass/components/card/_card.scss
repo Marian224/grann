@@ -128,7 +128,6 @@
     flex-direction: column;
     gap: 16px;
     max-width: 500px;
-    // margin-left: 14px;
 }
 
 .card__input {
@@ -229,8 +228,6 @@
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 999;
-
-    /* Приховуємо модалку за замовчуванням */
     pointer-events: none;
     opacity: 0;
     visibility: hidden;
@@ -247,23 +244,18 @@
     background-color: #F5F7F8;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
         0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
-
-    /* Початковий стан для анімації */
     transform: scale(1.1);
     transition: transform 200ms ease-in-out;
 }
 
-/* Стилі для відкритого стану (коли на <body> є клас .show-modal) */
 body.show-modal .backdrop {
     opacity: 1;
     visibility: visible;
     pointer-events: initial;
-    /* Дозволяє кліки */
 }
 
 body.show-modal .modal {
     transform: scale(1);
-    /* Повертає до нормального розміру */
 }
 
 .modal-h2 {
@@ -317,7 +309,6 @@ body.show-modal .modal {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    // font-family: "Montserrat", sans-serif;
     font-size: 16px;
     line-height: 22px;
     color: #705A66;
@@ -467,7 +458,6 @@ body.show-modal .modal {
         width: 355px;
         height: 222px;
         background-color: #F5EEE0;
-        // padding-left: 81px;
         padding-top: 48px;
         border-radius: 10px;
     }
@@ -543,7 +533,6 @@ body.show-modal .modal {
         flex-direction: column;
         gap: 16px;
         max-width: 500px;
-        // margin-left: 14px;
     }
 
     .card__input {
@@ -645,8 +634,6 @@ body.show-modal .modal {
         height: 100vh;
         background-color: rgba(0, 0, 0, 0.3);
         z-index: 999;
-
-        /* Приховуємо модалку за замовчуванням */
         pointer-events: none;
         opacity: 0;
         visibility: hidden;
@@ -663,23 +650,18 @@ body.show-modal .modal {
         background-color: #F5F7F8;
         box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
             0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
-
-        /* Початковий стан для анімації */
         transform: scale(1.1);
         transition: transform 200ms ease-in-out;
     }
 
-    /* Стилі для відкритого стану (коли на <body> є клас .show-modal) */
     body.show-modal .backdrop {
         opacity: 1;
         visibility: visible;
         pointer-events: initial;
-        /* Дозволяє кліки */
     }
 
     body.show-modal .modal {
         transform: scale(1);
-        /* Повертає до нормального розміру */
     }
 
     .modal-h2 {
@@ -742,7 +724,6 @@ body.show-modal .modal {
         display: flex;
         flex-direction: column;
         gap: 0px;
-        // font-family: "Montserrat", sans-serif;
         font-size: 16px;
         line-height: 22px;
         color: #705A66;
@@ -766,7 +747,6 @@ body.show-modal .modal {
         display: flex;
         flex-direction: column;
         gap: 0px;
-        // font-family: "Montserrat", sans-serif;
         font-size: 16px;
         line-height: 22px;
         color: #705A66;
@@ -778,7 +758,6 @@ body.show-modal .modal {
 
     .modal-info {
         flex-direction: column;
-        border: 1px solid red;
         width: 167px;
         display: flex;
         align-items: center;
@@ -892,7 +871,9 @@ body.show-modal .modal {
 
     .card-flex {
         display: flex;
+        flex-direction: column-reverse;
         justify-content: space-between;
+        gap: 30px;
     }
 
     .card-box-add-product {
@@ -902,6 +883,7 @@ body.show-modal .modal {
         padding-left: 48px;
         padding-top: 48px;
         border-radius: 10px;
+        margin-left: 30px;
     }
 
     .card-order {
@@ -957,6 +939,7 @@ body.show-modal .modal {
     }
 
     .card-btn {
+        margin-bottom: 20px;
         border-radius: 10px;
         width: 500px;
         height: 53px;
@@ -1119,8 +1102,8 @@ body.show-modal .modal {
         line-height: 32px;
         color: #705A66;
         font-weight: 500;
-        margin-left: 100px;
-        margin-top: 80px;
+        margin-left: 17px;
+        margin-top: 19px;
     }
 
     .modal-btn {
@@ -1136,7 +1119,7 @@ body.show-modal .modal {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 16px;
+        margin-left: 2px;
         margin-top: 11px;
     }
 
@@ -1147,17 +1130,17 @@ body.show-modal .modal {
 
     .modal-table {
         height: 321px;
-        width: 319px;
+        width: 290px;
         background-color: #F5EEE0;
-        margin-left: 129px;
+        margin-left: 101px;
         border-radius: 10px;
     }
 
     .modal-box {
         display: flex;
         align-items: center;
-        margin-left: 100px;
-        margin-top: 100px;
+        margin-left: 17px;
+        margin-top: 102px;
     }
 
     .modal-information {
@@ -1173,10 +1156,10 @@ body.show-modal .modal {
     .modal-cake {
         font-family: "Montserrat", sans-serif;
         color: #705A66;
-        font-size: 19px;
-        line-height: 32px;
-        margin-top: -244px;
-        margin-left: 32px;
+        font-size: 15px;
+        line-height: 40px;
+        margin-top: -126px;
+        margin-left: -9px;
     }
 
     .modal-btn-href {
@@ -1184,11 +1167,12 @@ body.show-modal .modal {
     }
 
     .modal-information-text {
+        margin-top: 10px;
         margin-left: 5px;
         display: flex;
         flex-direction: column;
         gap: 20px;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 22px;
         color: #705A66;
     }
@@ -1198,10 +1182,12 @@ body.show-modal .modal {
     }
 
     .modal-span {
-        margin-bottom: 33px;
+        margin-bottom: 24px;
     }
 
     .modal-info {
+        width: 35px;
+
         display: flex;
         align-items: center;
         gap: 20px;

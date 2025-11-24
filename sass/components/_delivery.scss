@@ -174,8 +174,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 32px;
+        gap: 0px;
         margin-top: 64px;
+        margin-left: -24px;
     }
 
     .delivery-photo {
@@ -186,8 +187,8 @@
 
     .delivery-text {
         font-family: "Montserrat", sans-serif;
-        line-height: 32px;
-        font-size: 24px;
+        line-height: 22px;
+        font-size: 16px;
         color: #705A66;
         display: flex;
         align-items: center;

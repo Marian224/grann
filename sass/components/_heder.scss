@@ -8,7 +8,6 @@
     align-items: center;
     padding-top: 40px;
     background-color: #F5EEE0;
-    // border: 1px solid black;
     margin-bottom: 0px;
 }
 
@@ -35,7 +34,6 @@
     padding: 32px;
     background-color: #705A66;
     z-index: 999;
-    // overflow: hidden;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
 }
@@ -224,7 +222,6 @@
         align-items: center;
         padding-top: 40px;
         background-color: #F5EEE0;
-        // border: 1px solid black;
         margin-bottom: 0px;
     }
 
@@ -260,7 +257,6 @@
 
     .phone-img {
         margin-top: 51px;
-        // margin-left: 174px;
     }
 
     .icon-phone {
@@ -284,7 +280,6 @@
         padding: 32px;
         background-color: #705A66;
         z-index: 999;
-        // overflow: hidden;
         transform: translateX(100%);
         transition: transform 250ms ease-in-out;
     }
@@ -294,11 +289,13 @@
     }
 
     .menu-container .menu-toggle {
-
+        visibility: visible;
         position: absolute;
         top: 16px;
         right: 141px;
         color: #fff;
+        top: 44px;
+        right: -31px;
     }
 
     .mobile-menu {
@@ -308,6 +305,10 @@
         padding: 0;
         margin: 0;
         list-style: none;
+        visibility: visible;
+        background: #705A66;
+        margin-left: 288px;
+        width: 500px;
     }
 
     .mobile-menu .link {
@@ -362,8 +363,6 @@
         height: 119px;
         background-color: #F5EEE0;
         margin-bottom: -7px;
-        // box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
-        //     0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
     }
 
     .menu {

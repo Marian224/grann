@@ -31,7 +31,6 @@ body {
     margin: 0px;
   }
   .container {
-    border: 1px solid red;
     width: 780px;
     margin: 0 auto;
     overflow: hidden;
@@ -304,10 +303,13 @@ body {
     transform: translateX(0);
   }
   .menu-container .menu-toggle {
+    visibility: visible;
     position: absolute;
     top: 16px;
     right: 141px;
     color: #fff;
+    top: 44px;
+    right: -31px;
   }
   .mobile-menu {
     font-family: "Montserrat", sans-serif;
@@ -316,6 +318,10 @@ body {
     padding: 0;
     margin: 0;
     list-style: none;
+    visibility: visible;
+    background: #705A66;
+    margin-left: 288px;
+    width: 500px;
   }
   .mobile-menu .link {
     display: block;
@@ -747,7 +753,7 @@ body {
     line-height: 110px;
     font-weight: 600;
     margin-top: 0px;
-    display: none;
+    display: block;
   }
 }
 .galery-photo {
@@ -1635,8 +1641,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 32px;
+    gap: 0px;
     margin-top: 64px;
+    margin-left: -24px;
   }
   .delivery-photo {
     display: flex;
@@ -1645,8 +1652,8 @@ body {
   }
   .delivery-text {
     font-family: "Montserrat", sans-serif;
-    line-height: 32px;
-    font-size: 24px;
+    line-height: 22px;
+    font-size: 16px;
     color: #705A66;
     display: flex;
     align-items: center;
@@ -1820,9 +1827,11 @@ body {
     padding: 20px 20px 20px 20px;
   }
   .about-me-face {
+    margin-left: 131px;
     padding-bottom: 300px;
   }
   .about-me-photo {
+    display: none;
     position: absolute;
     margin-top: 78px;
     margin-left: 30px;
@@ -1834,8 +1843,8 @@ body {
     line-height: 32px;
     font-size: 24px;
     font-weight: 500;
-    margin-left: 641px;
-    margin-top: -667px;
+    margin-left: 245px;
+    margin-top: -315px;
   }
   .about-me-position {
     display: flex;
@@ -1852,11 +1861,13 @@ body {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 0px;
+    margin-left: 62px;
   }
   .about-me-text {
+    width: 485px;
     font-family: "Montserrat", sans-serif;
-    margin-left: 635px;
-    margin-top: -539px;
+    margin-left: 111px;
+    margin-top: -237px;
     color: #705A66;
     line-height: 24px;
     font-size: 18px;
@@ -1930,24 +1941,27 @@ body {
     background-image: url("../../img/register/bg-section-register.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 565px;
+    height: 810px;
   }
   .register-photo-text {
-    padding-top: 0px;
-    padding-left: 27px;
+    width: 310px;
+    padding-top: 80px;
+    padding-left: 79px;
   }
   .register-text {
     font-family: "Montserrat", sans-serif;
-    padding-top: 0px;
+    margin-top: -263px;
+    padding-top: 280px;
+    padding-left: 84px;
     color: #F5F7F8;
-    line-height: 24px;
-    font-size: 18px;
-    width: 393px;
+    line-height: 22px;
+    font-size: 16px;
+    width: 322px;
   }
   .register-photo-title {
-    margin-top: 80px;
-    margin-left: 80px;
-    height: 300px;
+    margin-top: -74px;
+    margin-left: 43px;
+    height: 403px;
     width: 500px;
   }
 }
@@ -2053,11 +2067,13 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1023px) {
   .signup {
-    margin-top: 29px;
+    margin-left: 139px;
+    margin-top: -209px;
     color: #F5F7F8;
   }
   .signup-block {
     display: flex;
+    flex-direction: column;
     gap: 140px;
   }
   .signup-input {
@@ -2408,23 +2424,24 @@ body {
   .instagram-photo {
     padding-bottom: 30px;
     padding-right: 30px;
-    width: 380px;
+    width: 261px;
   }
   .instagram-photo-title {
+    margin-left: 880px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
   }
   .instagram-btn {
     font-family: "Montserrat", sans-serif;
-    line-height: 32px;
-    font-size: 24px;
+    line-height: 24px;
+    font-size: 18px;
     color: #705A66;
     background-color: #F5EEE0;
     border: 1px solid white;
     text-align: center;
-    width: 608px;
+    width: 355px;
     height: 67px;
     border-radius: 10px;
     text-transform: uppercase;
@@ -2435,33 +2452,52 @@ body {
     cursor: pointer;
   }
   .instagram-btn-all {
+    margin-top: 56px;
+    margin-left: 234px;
+    width: 400px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .instagram-pointer {
-    display: block;
+    display: none;
     margin-left: 21px;
     margin-bottom: 100px;
   }
   .instagram-pointer-down {
-    display: block;
+    display: none;
     margin-bottom: 61px;
     margin-left: -18px;
   }
   .instagram-arrow {
-    display: block;
+    display: none;
     margin-top: -76px;
     margin-right: 46px;
   }
-  .instagram-arrows {
-    display: none;
+  .instagram-btn-arrows {
+    display: block;
+    z-index: 5;
+    margin-left: -73px;
+    margin-top: -197px;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 350px;
+    margin-right: 50px;
   }
   .instagram-arrow-img {
-    display: none;
+    display: block;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
   }
   .instagram-dots-name {
-    display: none;
+    margin-left: 255px;
+    display: flex;
+    list-style: none;
+    gap: 62px;
+    margin-top: 31px;
   }
 }
 .footer {
@@ -2649,6 +2685,7 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1023px) {
   .footer {
+    height: 338px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2661,8 +2698,8 @@ body {
     line-height: 24px;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
-    margin-top: 88px;
+    margin-left: -31px;
+    margin-top: 300px;
     margin-bottom: -3px;
     text-decoration: none;
   }
@@ -2718,13 +2755,15 @@ body {
     padding-bottom: 0px;
   }
   .footer-title {
-    margin-left: 490px;
-    margin-top: -190px;
+    margin-top: -321px;
+    position: absolute;
+    margin-left: 278px;
   }
   .footer-right-photo {
+    left: 421px;
     position: absolute;
-    margin-left: 944px;
-    margin-top: -124px;
+    margin-left: 62px;
+    margin-top: -100px;
   }
   .footer-right {
     gap: 30px;
@@ -3113,7 +3152,7 @@ body {
     justify-content: flex-end;
   }
   .catalog-img {
-    width: 393px;
+    width: 350px;
   }
   .catalog-arrows {
     display: flex;
@@ -3123,13 +3162,14 @@ body {
     margin-right: 50px;
   }
   .catalog-list {
+    margin-left: 20px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding-left: 0;
   }
   .catalog-photo {
-    width: 393px;
+    width: 380px;
     list-style: none;
     margin-bottom: 32px;
     border: none;
@@ -3143,9 +3183,9 @@ body {
   .catalog-text {
     color: #705A66;
     font-family: "Montserrat", sans-serif;
-    line-height: 32px;
+    line-height: 22px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 16px;
     margin-top: 9px;
   }
   .catalog-text-shop {
@@ -3227,6 +3267,8 @@ body {
     justify-content: center;
   }
   .catalog-icon {
+    left: -30px;
+    position: relative;
     align-self: flex-start;
   }
   .catalog-name {
@@ -3652,8 +3694,11 @@ body {
     margin-left: 14px;
   }
   .product-row {
+    margin-top: -22px;
+    margin-left: -230px;
+    flex-direction: column;
     display: flex;
-    gap: 16px;
+    gap: 0px;
   }
   .product-btn {
     border: none;
@@ -3668,6 +3713,9 @@ body {
     padding-right: 32px;
   }
   .product-btn-order {
+    width: 304px;
+    left: -228px;
+    position: relative;
     font-family: "Montserrat", sans-serif;
     line-height: 32px;
     font-size: 24px;
@@ -3694,7 +3742,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     color: #705A66;
-    margin-left: -140px;
+    margin-left: 0px;
   }
   .product-switch {
     display: flex;
@@ -3766,6 +3814,13 @@ body {
   }
   .product-href {
     text-decoration: none;
+  }
+  .product-text-sale-phone {
+    gap: 37px;
+    margin-top: -153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 .card-shop {
@@ -3996,7 +4051,6 @@ body {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 999;
-  /* Приховуємо модалку за замовчуванням */
   pointer-events: none;
   opacity: 0;
   visibility: hidden;
@@ -4012,22 +4066,18 @@ body {
   min-height: 320px;
   background-color: #F5F7F8;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
-  /* Початковий стан для анімації */
   transform: scale(1.1);
   transition: transform 200ms ease-in-out;
 }
 
-/* Стилі для відкритого стану (коли на <body> є клас .show-modal) */
 body.show-modal .backdrop {
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
-  /* Дозволяє кліки */
 }
 
 body.show-modal .modal {
   transform: scale(1);
-  /* Повертає до нормального розміру */
 }
 
 .modal-h2 {
@@ -4376,7 +4426,6 @@ body.show-modal .modal {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 999;
-    /* Приховуємо модалку за замовчуванням */
     pointer-events: none;
     opacity: 0;
     visibility: hidden;
@@ -4391,20 +4440,16 @@ body.show-modal .modal {
     min-height: 320px;
     background-color: #F5F7F8;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
-    /* Початковий стан для анімації */
     transform: scale(1.1);
     transition: transform 200ms ease-in-out;
   }
-  /* Стилі для відкритого стану (коли на <body> є клас .show-modal) */
   body.show-modal .backdrop {
     opacity: 1;
     visibility: visible;
     pointer-events: initial;
-    /* Дозволяє кліки */
   }
   body.show-modal .modal {
     transform: scale(1);
-    /* Повертає до нормального розміру */
   }
   .modal-h2 {
     margin-bottom: 72px;
@@ -4489,7 +4534,6 @@ body.show-modal .modal {
   }
   .modal-info {
     flex-direction: column;
-    border: 1px solid red;
     width: 167px;
     display: flex;
     align-items: center;
@@ -4589,7 +4633,9 @@ body.show-modal .modal {
   }
   .card-flex {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-between;
+    gap: 30px;
   }
   .card-box-add-product {
     width: 488px;
@@ -4598,6 +4644,7 @@ body.show-modal .modal {
     padding-left: 48px;
     padding-top: 48px;
     border-radius: 10px;
+    margin-left: 30px;
   }
   .card-order {
     font-family: "Montserrat", sans-serif;
@@ -4645,6 +4692,7 @@ body.show-modal .modal {
     line-height: 24px;
   }
   .card-btn {
+    margin-bottom: 20px;
     border-radius: 10px;
     width: 500px;
     height: 53px;
@@ -4786,8 +4834,8 @@ body.show-modal .modal {
     line-height: 32px;
     color: #705A66;
     font-weight: 500;
-    margin-left: 100px;
-    margin-top: 80px;
+    margin-left: 17px;
+    margin-top: 19px;
   }
   .modal-btn {
     width: 287px;
@@ -4802,7 +4850,7 @@ body.show-modal .modal {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 16px;
+    margin-left: 2px;
     margin-top: 11px;
   }
   .modal-btn:hover {
@@ -4811,16 +4859,16 @@ body.show-modal .modal {
   }
   .modal-table {
     height: 321px;
-    width: 319px;
+    width: 290px;
     background-color: #F5EEE0;
-    margin-left: 129px;
+    margin-left: 101px;
     border-radius: 10px;
   }
   .modal-box {
     display: flex;
     align-items: center;
-    margin-left: 100px;
-    margin-top: 100px;
+    margin-left: 17px;
+    margin-top: 102px;
   }
   .modal-information {
     display: flex;
@@ -4833,20 +4881,21 @@ body.show-modal .modal {
   .modal-cake {
     font-family: "Montserrat", sans-serif;
     color: #705A66;
-    font-size: 19px;
-    line-height: 32px;
-    margin-top: -244px;
-    margin-left: 32px;
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: -126px;
+    margin-left: -9px;
   }
   .modal-btn-href {
     text-decoration: none;
   }
   .modal-information-text {
+    margin-top: 10px;
     margin-left: 5px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     color: #705A66;
   }
@@ -4854,9 +4903,10 @@ body.show-modal .modal {
     display: flex;
   }
   .modal-span {
-    margin-bottom: 33px;
+    margin-bottom: 24px;
   }
   .modal-info {
+    width: 35px;
     display: flex;
     align-items: center;
     gap: 20px;

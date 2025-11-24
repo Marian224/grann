@@ -14,8 +14,6 @@
 .main-title {
     font-family: "Montserrat", sans-serif;
     color: #705A66;
-    // align-items: center;
-    // justify-content: center;
     text-align: center;
     font-size: 100px;
     line-height: 110px;
@@ -373,7 +371,7 @@
         line-height: 110px;
         font-weight: 600;
         margin-top: 0px;
-        display: none;
+        display: block;
     }
 
 }
