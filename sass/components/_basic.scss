@@ -10,6 +10,10 @@ body {
     margin-bottom: 120px;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 // телефон
 
@@ -24,6 +28,10 @@ body {
         margin: 0 auto;
         overflow: hidden;
         margin-bottom: 120px;
+    }
+
+    a {
+        text-decoration: none;
     }
 }
 
@@ -41,4 +49,7 @@ body {
         margin-bottom: 120px;
     }
 
+    a {
+        text-decoration: none;
+    }
 }
