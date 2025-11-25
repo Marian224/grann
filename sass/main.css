@@ -2684,7 +2684,7 @@ a {
   .footer-title {
     margin-top: -379px;
     position: absolute;
-    margin-left: 83px;
+    margin-left: 96px;
   }
   .footer-right-photo {
     position: absolute;
@@ -3947,6 +3947,7 @@ a {
 }
 
 .card-btn {
+  margin-left: 37px;
   border-radius: 10px;
   width: 500px;
   height: 53px;
@@ -5057,6 +5058,7 @@ body.show-modal .modal {
     line-height: 18px;
     color: #705A66;
     margin-left: 20px;
+    width: 245px;
   }
   .description-btn {
     border-bottom: 3px solid #705A66;
