@@ -4330,8 +4330,8 @@ body.show-modal .modal {
   .card-radio-text {
     font-family: "Montserrat", sans-serif;
     color: #161616;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 16px;
   }
   .card-btn {
     border-radius: 10px;
