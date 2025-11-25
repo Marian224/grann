@@ -5051,10 +5051,11 @@ body.show-modal .modal {
     line-height: 22px;
     color: #705A66;
     list-style: auto;
+    width: 245px;
   }
   .information-delivery-text {
     font-family: "Montserrat", sans-serif;
-    font-size: 11px;
+    font-size: 18px;
     line-height: 18px;
     color: #705A66;
     margin-left: 20px;
